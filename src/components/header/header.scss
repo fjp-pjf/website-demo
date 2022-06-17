@@ -1,0 +1,20 @@
+@import "../../App.scss";
+
+.header {
+  background: #940d1b;
+  padding: 1%;
+  &-helpline {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  &-options {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    div {
+      padding: 0 1rem;
+    }
+  }
+}
